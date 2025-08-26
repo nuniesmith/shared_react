@@ -4292,8 +4292,8 @@ c46386ede6d3618f7fe15be9312f9660916828ec4e07bec6b76cc6636db34b0d  ./node_modules
 76e3364c46895ed2c4a8d5cc332e5e4ef31d6f732d35b1e56826dc5895245452  ./node_modules/react/cjs/react-jsx-runtime.production.min.js
 2178bc5a268f9dead7e6ac608fc4e1bf016ea04c64776ce19b11d1e99b103cd5  ./node_modules/react/cjs/react-jsx-runtime.profiling.min.js
 4b35e378f469c4f492c7514bb106b5833746dbbae80496bd4aa9acc6e9ac4b42  ./node_modules/react/cjs/react.production.min.js
-25226697f4b27212725d6095644af634094f13cd7d7f4020903c0708acf49747  ./node_modules/react/cjs/react.shared-subset.development.js
-81dc1fd56b616aab4967a0505053942a460c22e51f0bbcfd05031d9908a3bc6e  ./node_modules/react/cjs/react.shared-subset.production.min.js
+25226697f4b27212725d6095644af634094f13cd7d7f4020903c0708acf49747  ./node_modules/react/cjs/react.shared_subset.development.js
+81dc1fd56b616aab4967a0505053942a460c22e51f0bbcfd05031d9908a3bc6e  ./node_modules/react/cjs/react.shared_subset.production.min.js
 1459b808bc6991de5a1ec3a86d8beee32dbb6c14282cf13f84e00dfebfbdc025  ./node_modules/react-dom/cjs/react-dom.development.js
 cbf7fe6b9726ee65f8bcd5715289cc5161c8dacf74d0b8aaa0d29412516f5f47  ./node_modules/react-dom/cjs/react-dom.production.min.js
 962c027be962261c45af4751cf219743e0537344db987d9aa89cbe3c8be3d36d  ./node_modules/react-dom/cjs/react-dom.profiling.min.js
@@ -4339,7 +4339,7 @@ c255107ea9a45a3938ac6d0738032e5bdbcc2719fce4d5e9199fdee86a0d2e5d  ./node_modules
 28170e60f2ff0bc045bc7d175f5849e86f68dd02d76d7255369420718b30295a  ./node_modules/react/jsx-runtime.js
 52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85  ./node_modules/react/LICENSE
 d4e68a5c96babb20cad1daafea8b78822eae45b341552cf5418d06a5304fa64c  ./node_modules/react/package.json
-6e0253e5955264bf6d1014066f3921ab0715f432f27c5983bc487ced2a64f95b  ./node_modules/react/react.shared-subset.js
+6e0253e5955264bf6d1014066f3921ab0715f432f27c5983bc487ced2a64f95b  ./node_modules/react/react.shared_subset.js
 f69ca37ae48117e455a8ba0ffc48b6af14f87cfb8d787cabf630ee5db1dc07ce  ./node_modules/react/README.md
 8f20c737cec2c976475a333ce99c3f091224914a018af13b8a0e5af876a003c6  ./node_modules/react-refresh/babel.js
 39b5a792bf101e598c206fd42fd6d245b37bcb34b83ca1aca0358bd9444f04ae  ./node_modules/react-refresh/cjs/react-refresh-babel.development.js

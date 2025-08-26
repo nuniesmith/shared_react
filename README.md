@@ -1,4 +1,4 @@
-# fks-shared-react
+# shared_react
 
 Shared React library (hooks, utils, types) for FKS frontend apps.
 
@@ -7,7 +7,7 @@ Shared React library (hooks, utils, types) for FKS frontend apps.
 In consuming app `package.json`:
 
 ```json
-"dependencies": { "fks-shared-react": "file:../repo/shared/react" }
+"dependencies": { "shared_react": "file:../repo/shared/react" }
 ```
 
 Then:
@@ -19,7 +19,7 @@ npm install
 ## Usage
 
 ```tsx
-import { useEnv, getRiskThreshold } from 'fks-shared-react';
+import { useEnv, getRiskThreshold } from 'shared_react';
 const risk = getRiskThreshold();
 ```
 
