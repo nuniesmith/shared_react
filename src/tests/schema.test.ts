@@ -1,8 +1,8 @@
 import { describe, it, expect } from 'vitest';
 import Ajv2020 from 'ajv/dist/2020';
 import addFormats from 'ajv-formats';
-import schema from '../../schema/trade_signal.schema.json';
-import { TradeSignal } from '../src/types/trading';
+import schema from '../../../shared_schema/trade_signal.schema.json';
+import { TradeSignal } from '../types/trading';
 
 // Minimal runtime validation to ensure interface remains aligned with schema for key fields.
 

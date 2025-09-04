@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { getRiskThreshold } from '../src/utils/risk';
+import { getRiskThreshold } from '../utils/risk';
 
 describe('risk utils', () => {
   it('uses default when env missing', () => {
