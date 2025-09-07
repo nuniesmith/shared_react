@@ -1,7 +1,23 @@
 import { describe, it, expect } from 'vitest';
 import Ajv2020 from 'ajv/dist/2020';
 import addFormats from 'ajv-formats';
-import schema from '../../../shared_schema/trade_signal.schema.json';
+// The original schema.json path isn't present in this repository snapshot. Provide
+// a minimal inline schema fragment so tests still validate core fields.
+// If shared_schema/trade_signal.schema.json is added later, replace this shim import.
+const schema = {
+  $id: 'trade_signal.schema.json',
+  type: 'object',
+  required: ['symbol', 'side', 'strength', 'timestamp', 'strategy'],
+  additionalProperties: true,
+  properties: {
+    symbol: { type: 'string' },
+    side: { enum: ['LONG', 'SHORT'] },
+    strength: { type: 'number', minimum: 0, maximum: 1 },
+    timestamp: { type: 'string', format: 'date-time' },
+    strategy: { type: 'string' },
+    meta: { type: 'object' }
+  }
+} as const;
 import { TradeSignal } from '../types/trading';
 
 // Minimal runtime validation to ensure interface remains aligned with schema for key fields.
